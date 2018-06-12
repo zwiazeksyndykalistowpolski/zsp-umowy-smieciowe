@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="1450084638">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="2" />
+          <entry key="css" value="7" />
+          <entry key="gitkeep" value="2" />
+          <entry key="html" value="42" />
+          <entry key="j2" value="15" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="5" />
+          <entry key="json" value="2" />
+          <entry key="md" value="7" />
+          <entry key="py" value="3" />
+          <entry key="toml" value="3" />
+          <entry key="twig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="42" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Makefile" value="2" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Twig" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Makefile" value="112" />
+          <entry key="css" value="506" />
+          <entry key="html" value="9236" />
+          <entry key="j2" value="619" />
+          <entry key="js" value="364" />
+          <entry key="md" value="328" />
+          <entry key="py" value="118" />
+          <entry key="toml" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="506" />
+          <entry key="HTML" value="9236" />
+          <entry key="JavaScript" value="364" />
+          <entry key="Makefile" value="112" />
+          <entry key="Markdown" value="328" />
+          <entry key="PLAIN_TEXT" value="224" />
+          <entry key="Twig" value="619" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+</project>

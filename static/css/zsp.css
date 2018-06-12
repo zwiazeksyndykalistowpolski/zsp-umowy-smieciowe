@@ -1,0 +1,77 @@
+/**
+ * Stable contract
+ */
+
+.stable-contract {
+    background: url(../img/about-img.jpg) right top no-repeat !important;
+    background-size: 50% !important;
+}
+
+.stable-contract .icon-box {
+    margin-bottom: 10px;
+}
+
+.stable-contract .tile-description {
+    margin-bottom: 65px;
+}
+
+@media (max-width:994px) {
+    .stable-contract {
+        background: white !important;
+    }
+}
+
+/*
+ * Statistics
+ */
+
+div [data-toggle] {
+    display: inline;
+}
+
+.statistics-block .section-title {
+    margin-bottom: 65px;
+}
+
+#services .box {
+    height: 80%;
+}
+
+/**
+ * Contact
+ */
+.portfolio-item .details {
+    background: #ce4b4b !important;
+}
+
+/**
+ * General
+ */
+.nav-menu > li > a:before {
+    background: #ce4b4b !important;
+}
+
+#about .about-container .icon-box .icon {
+    border: 2px solid #6d2c2c !important;
+}
+
+#about .about-container .icon-box .icon i {
+    color: #ce4b4b;
+}
+
+#facts .counters span {
+    color: #ce4b4b;
+}
+
+#services .icon a, #call-to-action .cta-btn:hover, #hero .btn-get-started:hover {
+    background: #ce4b4b;
+    border: 2px solid #9c3c3c;
+}
+
+#services .box:hover .icon i {
+    color: black !important;
+}
+
+a {
+    color: #ce4b4b;
+}
