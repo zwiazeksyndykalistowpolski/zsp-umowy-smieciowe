@@ -75,3 +75,15 @@ div [data-toggle] {
 a {
     color: #ce4b4b;
 }
+
+a:hover, a:active, a:focus {
+    color: white;
+}
+
+.back-to-top:hover {
+    background: #ce4b4b !important;
+}
+
+.details {
+    max-width: 400px;
+}
