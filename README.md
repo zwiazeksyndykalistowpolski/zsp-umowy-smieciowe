@@ -13,3 +13,10 @@ hugo server -D
 # budowanie docelowej strony do umieszczenia publicznie (pojawi się w katalogu "public")
 hugo
 ```
+
+#### Docker
+
+```
+sudo docker build . -t zsp-umowy-smieciowe 
+sudo docker run --rm -p 7002:80 zsp-umowy-smieciowe
+```
