@@ -80,6 +80,11 @@ a:hover, a:active, a:focus {
     color: white;
 }
 
+.icon a, .icon {
+    width: 60.02px;
+    text-align: center;
+}
+
 .back-to-top:hover {
     background: #ce4b4b !important;
 }
