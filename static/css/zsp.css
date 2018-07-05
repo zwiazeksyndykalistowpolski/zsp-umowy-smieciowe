@@ -96,3 +96,22 @@ a:hover, a:active, a:focus {
 #portfolio .portfolio-item .details {
     bottom: 0;
 }
+
+.section-header-bigger img {
+    margin: 0 auto;
+    padding-bottom: 20px !important;
+}
+
+/**
+ * 734px - smaller screen (sm)
+ */
+
+@media only screen and (max-width: 734px) {
+    .device-sm { display: block; }
+    .device-regular { display: none;}
+}
+
+@media only screen and (min-width: 734px) {
+    .device-sm { display: none; }
+    .device-regular { display: block; }
+}
