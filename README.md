@@ -8,15 +8,15 @@ Strona została wykonana w `hugo`, wymaga instalacji frameworka hugo do pracy na
 
 ```
 # uruchamianie serwera deweloperskiego
-hugo server -D
+make start@dev
 
 # budowanie docelowej strony do umieszczenia publicznie (pojawi się w katalogu "public")
-hugo
+make build
 ```
 
 #### Docker
 
 ```
-sudo docker build . -t zsp-umowy-smieciowe 
-sudo docker run --rm -p 7002:80 zsp-umowy-smieciowe
+make build@x86_64
+sudo docker run --rm -p 7002:80 wolnosciowiec/zsp-umowy-smieciowe
 ```
