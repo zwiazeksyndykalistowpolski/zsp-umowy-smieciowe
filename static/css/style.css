@@ -146,6 +146,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  .hero-container br {
+    display: none
+  }
 }
 
 #hero:before {
@@ -197,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -574,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts .counters span {
-  font-size: 48px;
+  font-size: 36px;
   display: block;
   color: #2dc997;
 }
@@ -676,6 +679,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+  .hero-container br {
+    display: none
   }
 }
 
