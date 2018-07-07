@@ -103,6 +103,31 @@ a:hover, a:active, a:focus {
 }
 
 /**
+ * Welcome tile
+ */
+.carousel-inner {
+    padding: 0 !important;
+}
+
+#hero:before {
+    z-index: 99;
+}
+
+#welcomeTileCarousel {
+    height: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.welcome-tile-text, .welcome-tile-text h1, .welcome-tile-text h2, .welcome-tile-text a {
+    z-index: 99999 !important;
+}
+
+/**
  * 734px - smaller screen (sm)
  */
 
