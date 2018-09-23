@@ -47,6 +47,11 @@ div [data-toggle] {
 /**
  * General
  */
+
+.very-important-message {
+    color: red;
+}
+
 .nav-menu > li > a:before {
     background: #ce4b4b !important;
 }
