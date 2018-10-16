@@ -48,6 +48,10 @@ div [data-toggle] {
  * General
  */
 
+#hero {
+    overflow-x: hidden; /* disable scrollbar in the slider, it's annoying */
+}
+
 .very-important-message {
     color: red;
 }
