@@ -48,6 +48,10 @@ div [data-toggle] {
  * General
  */
 
+#hero {
+    overflow-x: hidden; /* disable scrollbar in the slider, it's annoying */
+}
+
 .very-important-message {
     color: red;
 }
@@ -129,7 +133,11 @@ a:hover, a:active, a:focus {
 }
 
 .welcome-tile-text, .welcome-tile-text h1, .welcome-tile-text h2, .welcome-tile-text a {
-    z-index: 99999 !important;
+    z-index: 99 !important;
+}
+
+.header-fixed {
+    z-index: 100 !important;
 }
 
 /**
