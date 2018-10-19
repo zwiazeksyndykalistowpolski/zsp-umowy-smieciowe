@@ -1,0 +1,25 @@
+{{- $files := readDir "./static/files" -}}
+
+<section id="team">
+    <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="section-header">
+            <h3 class="section-title">Materiały</h3>
+            <p class="section-description">
+                Jeżeli podoba Ci się przekaz zawarty na tej stronie, możesz wydrukować nasze materiały i je rozdawać lub rozklejać.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="member">
+                    <ul class="list-group">
+                        {{- range $files }}
+                            <li class="list-group-item">
+                                <a href="/files/{{ .Name | relURL }}" target="_blank"> {{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
