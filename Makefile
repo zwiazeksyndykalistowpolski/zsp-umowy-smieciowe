@@ -50,3 +50,7 @@ push@x86_64:
 ## Push arm7hf image to registry
 push@arm7hf:
 	sudo docker push wolnosciowiec/zsp-umowy-smieciowe:arm7hf
+
+## Run the x86_64 image
+run@x86_64:
+	sudo docker run --rm --name zsp-umowy-smieciowe -p 80:80 wolnosciowiec/zsp-umowy-smieciowe
