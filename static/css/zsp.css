@@ -141,6 +141,23 @@ a:hover, a:active, a:focus {
 }
 
 /**
+ * Downloads
+ */
+.downloads-section .list-group-item {
+    background: #c8272a;
+    opacity: 0.8;
+}
+
+.downloads-section .list-group-item a {
+    color: white;
+}
+
+.downloads-section .list-group-item a:hover {
+    color: #d2baba;
+}
+
+
+/**
  * 734px - smaller screen (sm)
  */
 
