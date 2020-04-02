@@ -170,3 +170,25 @@ a:hover, a:active, a:focus {
     .device-sm { display: none; }
     .device-regular { display: block; }
 }
+
+
+/**
+ * ZSP logo
+ */
+.zsp-logo {
+    float: left;
+    margin-right: 11px;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.zsp-logo img {
+    width: 58px;
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .zsp-logo { display: none; }
+}
